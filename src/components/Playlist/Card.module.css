@@ -1,0 +1,39 @@
+.musicCard {
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+h2 {
+  width: 260px;
+  height: 24px;
+
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+p {
+  width: 260px;
+  height: 136px;
+
+  color: #CCC3C3;
+  text-align: justify;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+img {
+  max-height: 260px;
+  max-width: 260px;
+}

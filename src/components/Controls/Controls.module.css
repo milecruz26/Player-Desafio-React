@@ -1,0 +1,37 @@
+.container {
+  margin: 0 auto;
+
+  display: flex;
+
+  align-items: center;
+  align-content: center;
+  height: 132px;
+  width: 1440px;
+}
+
+.player {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  gap: 40px;
+}
+
+.artistMusic {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: column;
+
+  color: #FFF;
+  font-family: 'Roboto' sans-serif;
+
+}
+
+.buttons {
+  margin: 30px auto;
+
+  display: flex;
+  gap: 40px;
+}
